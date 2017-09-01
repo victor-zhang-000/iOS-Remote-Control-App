@@ -1,0 +1,930 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4CBBC31E31C10D002F0651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CBBC21E31C10D002F0651 /* main.m */; };
+		2D4CBBC61E31C10D002F0651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CBBC51E31C10D002F0651 /* AppDelegate.m */; };
+		2D4CBBC91E31C10D002F0651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CBBC81E31C10D002F0651 /* ViewController.m */; };
+		2D4CBBCC1E31C10D002F0651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBBCA1E31C10D002F0651 /* Main.storyboard */; };
+		2D4CBBCF1E31C10D002F0651 /* VideoH264.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CBBCD1E31C10D002F0651 /* VideoH264.xcdatamodeld */; };
+		2D4CBBD11E31C10D002F0651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBBD01E31C10D002F0651 /* Assets.xcassets */; };
+		2D4CBBD41E31C10D002F0651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBBD21E31C10D002F0651 /* LaunchScreen.storyboard */; };
+		2D4CBBDF1E31C10D002F0651 /* VideoH264Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CBBDE1E31C10D002F0651 /* VideoH264Tests.m */; };
+		2D4CBBEA1E31C10D002F0651 /* VideoH264UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CBBE91E31C10D002F0651 /* VideoH264UITests.m */; };
+		2D4CBC031E31C455002F0651 /* tab_homepage_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBBFB1E31C455002F0651 /* tab_homepage_press@2x.png */; };
+		2D4CBC041E31C455002F0651 /* tab_homepage_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBBFC1E31C455002F0651 /* tab_homepage_nor@2x.png */; };
+		2D4CBC051E31C455002F0651 /* tab_find_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBBFD1E31C455002F0651 /* tab_find_press@2x.png */; };
+		2D4CBC061E31C455002F0651 /* tab_find_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBBFE1E31C455002F0651 /* tab_find_nor@2x.png */; };
+		2D4CBC071E31C455002F0651 /* logo_3745aaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBBFF1E31C455002F0651 /* logo_3745aaf.png */; };
+		2D4CBC081E31C455002F0651 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBC001E31C455002F0651 /* close@3x.png */; };
+		2D4CBC091E31C455002F0651 /* close_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBC011E31C455002F0651 /* close_preview@3x.png */; };
+		2D4CBC0A1E31C455002F0651 /* close_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBC021E31C455002F0651 /* close_preview@2x.png */; };
+		2D4CBC0D1E322804002F0651 /* YiOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CBC0C1E322804002F0651 /* YiOpenGLView.m */; };
+		2D4CBC151E322E05002F0651 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4CBC141E322E05002F0651 /* OpenGLES.framework */; };
+		2D4CBC171E322E32002F0651 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4CBC161E322E32002F0651 /* VideoToolbox.framework */; };
+		2D4CBC191E322E44002F0651 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4CBC181E322E44002F0651 /* QuartzCore.framework */; };
+		2D4CBC1B1E322E4C002F0651 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4CBC1A1E322E4C002F0651 /* AVFoundation.framework */; };
+		2D4CBC1D1E322E5B002F0651 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4CBC1C1E322E5B002F0651 /* GLKit.framework */; };
+		2D4CBC201E3231EA002F0651 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBC1E1E3231EA002F0651 /* Shader.vsh */; };
+		2D4CBC211E3231EA002F0651 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CBC1F1E3231EA002F0651 /* Shader.fsh */; };
+		2D5E2D9F1E6FBA390053F1A6 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D941E6FBA390053F1A6 /* square.png */; };
+		2D5E2DA01E6FBA390053F1A6 /* rockerTranslucentBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D951E6FBA390053F1A6 /* rockerTranslucentBg@2x.png */; };
+		2D5E2DA11E6FBA390053F1A6 /* rockerTranslucentBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D961E6FBA390053F1A6 /* rockerTranslucentBg.png */; };
+		2D5E2DA21E6FBA390053F1A6 /* rockerOpaqueBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D971E6FBA390053F1A6 /* rockerOpaqueBg@2x.png */; };
+		2D5E2DA31E6FBA390053F1A6 /* rockerOpaqueBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D981E6FBA390053F1A6 /* rockerOpaqueBg.png */; };
+		2D5E2DA41E6FBA390053F1A6 /* JoyStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2D991E6FBA390053F1A6 /* JoyStick.m */; };
+		2D5E2DA51E6FBA390053F1A6 /* handlePressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D9B1E6FBA390053F1A6 /* handlePressed@2x.png */; };
+		2D5E2DA61E6FBA390053F1A6 /* handlePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D9C1E6FBA390053F1A6 /* handlePressed.png */; };
+		2D5E2DA71E6FBA390053F1A6 /* handleNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D9D1E6FBA390053F1A6 /* handleNormal@2x.png */; };
+		2D5E2DA81E6FBA390053F1A6 /* handleNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E2D9E1E6FBA390053F1A6 /* handleNormal.png */; };
+		2D6F5F431E78E085006831FD /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F5F421E78E085006831FD /* InitViewController.m */; };
+		2D7F5B8F1E90F1DE007D386A /* landing.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B8E1E90F1DE007D386A /* landing.png */; };
+		2D7F5B911E90F3A7007D386A /* misslebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B901E90F3A7007D386A /* misslebtn.png */; };
+		2D7F5B931E90F490007D386A /* SquareTarget.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B921E90F490007D386A /* SquareTarget.png */; };
+		2D7F5B961E90F81C007D386A /* YiAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7F5B951E90F81C007D386A /* YiAnimation.m */; };
+		2D7F5BB51E90FA8F007D386A /* missle15.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B981E90FA8F007D386A /* missle15.png */; };
+		2D7F5BB61E90FA8F007D386A /* missle14.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B991E90FA8F007D386A /* missle14.png */; };
+		2D7F5BB71E90FA8F007D386A /* missle13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B9A1E90FA8F007D386A /* missle13.png */; };
+		2D7F5BB81E90FA8F007D386A /* missle12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B9B1E90FA8F007D386A /* missle12.png */; };
+		2D7F5BB91E90FA8F007D386A /* missle11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B9C1E90FA8F007D386A /* missle11.png */; };
+		2D7F5BBA1E90FA8F007D386A /* missle10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B9D1E90FA8F007D386A /* missle10.png */; };
+		2D7F5BBB1E90FA8F007D386A /* missle9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B9E1E90FA8F007D386A /* missle9.png */; };
+		2D7F5BBC1E90FA8F007D386A /* missle8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5B9F1E90FA8F007D386A /* missle8.png */; };
+		2D7F5BBD1E90FA8F007D386A /* missle7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA01E90FA8F007D386A /* missle7.png */; };
+		2D7F5BBE1E90FA8F007D386A /* missle6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA11E90FA8F007D386A /* missle6.png */; };
+		2D7F5BBF1E90FA8F007D386A /* missle5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA21E90FA8F007D386A /* missle5.png */; };
+		2D7F5BC01E90FA8F007D386A /* missle4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA31E90FA8F007D386A /* missle4.png */; };
+		2D7F5BC11E90FA8F007D386A /* missle3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA41E90FA8F007D386A /* missle3.png */; };
+		2D7F5BC21E90FA8F007D386A /* missle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA51E90FA8F007D386A /* missle2.png */; };
+		2D7F5BC31E90FA8F007D386A /* missle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA61E90FA8F007D386A /* missle1.png */; };
+		2D7F5BC41E90FA8F007D386A /* missle0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA71E90FA8F007D386A /* missle0.png */; };
+		2D7F5BC51E90FA8F007D386A /* explode12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA81E90FA8F007D386A /* explode12.png */; };
+		2D7F5BC61E90FA8F007D386A /* explode11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BA91E90FA8F007D386A /* explode11.png */; };
+		2D7F5BC71E90FA8F007D386A /* explode10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BAA1E90FA8F007D386A /* explode10.png */; };
+		2D7F5BC81E90FA8F007D386A /* explode9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BAB1E90FA8F007D386A /* explode9.png */; };
+		2D7F5BC91E90FA8F007D386A /* explode8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BAC1E90FA8F007D386A /* explode8.png */; };
+		2D7F5BCA1E90FA8F007D386A /* explode7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BAD1E90FA8F007D386A /* explode7.png */; };
+		2D7F5BCB1E90FA8F007D386A /* explode6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BAE1E90FA8F007D386A /* explode6.png */; };
+		2D7F5BCC1E90FA8F007D386A /* explode5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BAF1E90FA8F007D386A /* explode5.png */; };
+		2D7F5BCD1E90FA8F007D386A /* explode4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BB01E90FA8F007D386A /* explode4.png */; };
+		2D7F5BCE1E90FA8F007D386A /* explode3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BB11E90FA8F007D386A /* explode3.png */; };
+		2D7F5BCF1E90FA8F007D386A /* explode2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BB21E90FA8F007D386A /* explode2.png */; };
+		2D7F5BD01E90FA8F007D386A /* explode1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BB31E90FA8F007D386A /* explode1.png */; };
+		2D7F5BD11E90FA8F007D386A /* explode0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7F5BB41E90FA8F007D386A /* explode0.png */; };
+		2D8802B81EBB057F0029523D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8802B71EBB057F0029523D /* opencv2.framework */; };
+		2D95761A1EC6137B00DB493C /* lose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9576181EC6137B00DB493C /* lose.png */; };
+		2D95761B1EC6137B00DB493C /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9576191EC6137B00DB493C /* win.png */; };
+		2DB9025A1E9A7B7300CBBAE0 /* air_combat.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB902591E9A7B7300CBBAE0 /* air_combat.png */; };
+		2DE2CE521E92397E0031C17E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2CE511E92397E0031C17E /* background.png */; };
+		2DE2CE621E9274310031C17E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2CE601E9274310031C17E /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2DE2CE641E960F6C0031C17E /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2CE631E960F6C0031C17E /* background1.jpg */; };
+		2DE2CE661E9613B40031C17E /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2CE651E9613B40031C17E /* background1.png */; };
+		2DE2CE681E961BAA0031C17E /* joystickBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2CE671E961BAA0031C17E /* joystickBg.png */; };
+		2DE2CE6A1E961DFF0031C17E /* missileBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2CE691E961DFF0031C17E /* missileBtn.png */; };
+		2DE2CE6C1E9638410031C17E /* joystickBgnew.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2CE6B1E9638410031C17E /* joystickBgnew.png */; };
+		2DE2CE6E1E963ADF0031C17E /* joystick3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2CE6D1E963ADF0031C17E /* joystick3.png */; };
+		2DED681D1E86401C001117DD /* YiOpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DED68171E86401C001117DD /* YiOpenCV.mm */; };
+		2DED681E1E86401C001117DD /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DED68191E86401C001117DD /* UIImage+OpenCV.mm */; };
+		2DED681F1E86401C001117DD /* ImageProcess.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DED681B1E86401C001117DD /* ImageProcess.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4CBBDB1E31C10D002F0651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4CBBB61E31C10C002F0651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4CBBBD1E31C10C002F0651;
+			remoteInfo = VideoH264;
+		};
+		2D4CBBE61E31C10D002F0651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4CBBB61E31C10C002F0651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4CBBBD1E31C10C002F0651;
+			remoteInfo = VideoH264;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4CBBBE1E31C10C002F0651 /* VideoH264.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoH264.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4CBBC21E31C10D002F0651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D4CBBC41E31C10D002F0651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D4CBBC51E31C10D002F0651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D4CBBC71E31C10D002F0651 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D4CBBC81E31C10D002F0651 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D4CBBCB1E31C10D002F0651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D4CBBCE1E31C10D002F0651 /* VideoH264.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoH264.xcdatamodel; sourceTree = "<group>"; };
+		2D4CBBD01E31C10D002F0651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4CBBD31E31C10D002F0651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D4CBBD51E31C10D002F0651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4CBBDA1E31C10D002F0651 /* VideoH264Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoH264Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4CBBDE1E31C10D002F0651 /* VideoH264Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoH264Tests.m; sourceTree = "<group>"; };
+		2D4CBBE01E31C10D002F0651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4CBBE51E31C10D002F0651 /* VideoH264UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoH264UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4CBBE91E31C10D002F0651 /* VideoH264UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoH264UITests.m; sourceTree = "<group>"; };
+		2D4CBBEB1E31C10D002F0651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4CBBFB1E31C455002F0651 /* tab_homepage_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_homepage_press@2x.png"; sourceTree = "<group>"; };
+		2D4CBBFC1E31C455002F0651 /* tab_homepage_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_homepage_nor@2x.png"; sourceTree = "<group>"; };
+		2D4CBBFD1E31C455002F0651 /* tab_find_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_find_press@2x.png"; sourceTree = "<group>"; };
+		2D4CBBFE1E31C455002F0651 /* tab_find_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_find_nor@2x.png"; sourceTree = "<group>"; };
+		2D4CBBFF1E31C455002F0651 /* logo_3745aaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_3745aaf.png; sourceTree = "<group>"; };
+		2D4CBC001E31C455002F0651 /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		2D4CBC011E31C455002F0651 /* close_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@3x.png"; sourceTree = "<group>"; };
+		2D4CBC021E31C455002F0651 /* close_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@2x.png"; sourceTree = "<group>"; };
+		2D4CBC0B1E322804002F0651 /* YiOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiOpenGLView.h; sourceTree = "<group>"; };
+		2D4CBC0C1E322804002F0651 /* YiOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiOpenGLView.m; sourceTree = "<group>"; };
+		2D4CBC141E322E05002F0651 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2D4CBC161E322E32002F0651 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2D4CBC181E322E44002F0651 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D4CBC1A1E322E4C002F0651 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2D4CBC1C1E322E5B002F0651 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2D4CBC1E1E3231EA002F0651 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		2D4CBC1F1E3231EA002F0651 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		2D5E2D941E6FBA390053F1A6 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = VideoH264/JoyStick/square.png; sourceTree = "<group>"; };
+		2D5E2D951E6FBA390053F1A6 /* rockerTranslucentBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rockerTranslucentBg@2x.png"; path = "VideoH264/JoyStick/rockerTranslucentBg@2x.png"; sourceTree = "<group>"; };
+		2D5E2D961E6FBA390053F1A6 /* rockerTranslucentBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rockerTranslucentBg.png; path = VideoH264/JoyStick/rockerTranslucentBg.png; sourceTree = "<group>"; };
+		2D5E2D971E6FBA390053F1A6 /* rockerOpaqueBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rockerOpaqueBg@2x.png"; path = "VideoH264/JoyStick/rockerOpaqueBg@2x.png"; sourceTree = "<group>"; };
+		2D5E2D981E6FBA390053F1A6 /* rockerOpaqueBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rockerOpaqueBg.png; path = VideoH264/JoyStick/rockerOpaqueBg.png; sourceTree = "<group>"; };
+		2D5E2D991E6FBA390053F1A6 /* JoyStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JoyStick.m; path = VideoH264/JoyStick/JoyStick.m; sourceTree = "<group>"; };
+		2D5E2D9A1E6FBA390053F1A6 /* JoyStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoyStick.h; path = VideoH264/JoyStick/JoyStick.h; sourceTree = "<group>"; };
+		2D5E2D9B1E6FBA390053F1A6 /* handlePressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "handlePressed@2x.png"; path = "VideoH264/JoyStick/handlePressed@2x.png"; sourceTree = "<group>"; };
+		2D5E2D9C1E6FBA390053F1A6 /* handlePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handlePressed.png; path = VideoH264/JoyStick/handlePressed.png; sourceTree = "<group>"; };
+		2D5E2D9D1E6FBA390053F1A6 /* handleNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "handleNormal@2x.png"; path = "VideoH264/JoyStick/handleNormal@2x.png"; sourceTree = "<group>"; };
+		2D5E2D9E1E6FBA390053F1A6 /* handleNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handleNormal.png; path = VideoH264/JoyStick/handleNormal.png; sourceTree = "<group>"; };
+		2D6F5F411E78E085006831FD /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitViewController.h; sourceTree = "<group>"; };
+		2D6F5F421E78E085006831FD /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitViewController.m; sourceTree = "<group>"; };
+		2D7F5B8E1E90F1DE007D386A /* landing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landing.png; sourceTree = "<group>"; };
+		2D7F5B901E90F3A7007D386A /* misslebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misslebtn.png; sourceTree = "<group>"; };
+		2D7F5B921E90F490007D386A /* SquareTarget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SquareTarget.png; sourceTree = "<group>"; };
+		2D7F5B941E90F81C007D386A /* YiAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiAnimation.h; sourceTree = "<group>"; };
+		2D7F5B951E90F81C007D386A /* YiAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiAnimation.m; sourceTree = "<group>"; };
+		2D7F5B981E90FA8F007D386A /* missle15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle15.png; path = animation/missle15.png; sourceTree = "<group>"; };
+		2D7F5B991E90FA8F007D386A /* missle14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle14.png; path = animation/missle14.png; sourceTree = "<group>"; };
+		2D7F5B9A1E90FA8F007D386A /* missle13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle13.png; path = animation/missle13.png; sourceTree = "<group>"; };
+		2D7F5B9B1E90FA8F007D386A /* missle12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle12.png; path = animation/missle12.png; sourceTree = "<group>"; };
+		2D7F5B9C1E90FA8F007D386A /* missle11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle11.png; path = animation/missle11.png; sourceTree = "<group>"; };
+		2D7F5B9D1E90FA8F007D386A /* missle10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle10.png; path = animation/missle10.png; sourceTree = "<group>"; };
+		2D7F5B9E1E90FA8F007D386A /* missle9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle9.png; path = animation/missle9.png; sourceTree = "<group>"; };
+		2D7F5B9F1E90FA8F007D386A /* missle8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle8.png; path = animation/missle8.png; sourceTree = "<group>"; };
+		2D7F5BA01E90FA8F007D386A /* missle7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle7.png; path = animation/missle7.png; sourceTree = "<group>"; };
+		2D7F5BA11E90FA8F007D386A /* missle6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle6.png; path = animation/missle6.png; sourceTree = "<group>"; };
+		2D7F5BA21E90FA8F007D386A /* missle5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle5.png; path = animation/missle5.png; sourceTree = "<group>"; };
+		2D7F5BA31E90FA8F007D386A /* missle4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle4.png; path = animation/missle4.png; sourceTree = "<group>"; };
+		2D7F5BA41E90FA8F007D386A /* missle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle3.png; path = animation/missle3.png; sourceTree = "<group>"; };
+		2D7F5BA51E90FA8F007D386A /* missle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle2.png; path = animation/missle2.png; sourceTree = "<group>"; };
+		2D7F5BA61E90FA8F007D386A /* missle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle1.png; path = animation/missle1.png; sourceTree = "<group>"; };
+		2D7F5BA71E90FA8F007D386A /* missle0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missle0.png; path = animation/missle0.png; sourceTree = "<group>"; };
+		2D7F5BA81E90FA8F007D386A /* explode12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode12.png; path = animation/explode12.png; sourceTree = "<group>"; };
+		2D7F5BA91E90FA8F007D386A /* explode11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode11.png; path = animation/explode11.png; sourceTree = "<group>"; };
+		2D7F5BAA1E90FA8F007D386A /* explode10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode10.png; path = animation/explode10.png; sourceTree = "<group>"; };
+		2D7F5BAB1E90FA8F007D386A /* explode9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode9.png; path = animation/explode9.png; sourceTree = "<group>"; };
+		2D7F5BAC1E90FA8F007D386A /* explode8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode8.png; path = animation/explode8.png; sourceTree = "<group>"; };
+		2D7F5BAD1E90FA8F007D386A /* explode7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode7.png; path = animation/explode7.png; sourceTree = "<group>"; };
+		2D7F5BAE1E90FA8F007D386A /* explode6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode6.png; path = animation/explode6.png; sourceTree = "<group>"; };
+		2D7F5BAF1E90FA8F007D386A /* explode5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode5.png; path = animation/explode5.png; sourceTree = "<group>"; };
+		2D7F5BB01E90FA8F007D386A /* explode4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode4.png; path = animation/explode4.png; sourceTree = "<group>"; };
+		2D7F5BB11E90FA8F007D386A /* explode3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode3.png; path = animation/explode3.png; sourceTree = "<group>"; };
+		2D7F5BB21E90FA8F007D386A /* explode2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode2.png; path = animation/explode2.png; sourceTree = "<group>"; };
+		2D7F5BB31E90FA8F007D386A /* explode1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode1.png; path = animation/explode1.png; sourceTree = "<group>"; };
+		2D7F5BB41E90FA8F007D386A /* explode0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explode0.png; path = animation/explode0.png; sourceTree = "<group>"; };
+		2D8802B31EBB02130029523D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = VideoH264/opencv2.framework; sourceTree = "<group>"; };
+		2D8802B71EBB057F0029523D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = VideoH264/opencv2.framework; sourceTree = "<group>"; };
+		2D9576181EC6137B00DB493C /* lose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lose.png; sourceTree = "<group>"; };
+		2D9576191EC6137B00DB493C /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = win.png; sourceTree = "<group>"; };
+		2DB902591E9A7B7300CBBAE0 /* air_combat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = air_combat.png; sourceTree = "<group>"; };
+		2DE2CE511E92397E0031C17E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = VideoH264/JoyStick/background.png; sourceTree = "<group>"; };
+		2DE2CE601E9274310031C17E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		2DE2CE611E9274310031C17E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		2DE2CE631E960F6C0031C17E /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		2DE2CE651E9613B40031C17E /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		2DE2CE671E961BAA0031C17E /* joystickBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystickBg.png; path = VideoH264/JoyStick/joystickBg.png; sourceTree = "<group>"; };
+		2DE2CE691E961DFF0031C17E /* missileBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missileBtn.png; sourceTree = "<group>"; };
+		2DE2CE6B1E9638410031C17E /* joystickBgnew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystickBgnew.png; path = VideoH264/JoyStick/joystickBgnew.png; sourceTree = "<group>"; };
+		2DE2CE6D1E963ADF0031C17E /* joystick3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick3.png; path = VideoH264/JoyStick/joystick3.png; sourceTree = "<group>"; };
+		2DED68171E86401C001117DD /* YiOpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = YiOpenCV.mm; path = VideoH264/imageprocess/YiOpenCV.mm; sourceTree = "<group>"; };
+		2DED68181E86401C001117DD /* YiOpenCV.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = YiOpenCV.hpp; path = VideoH264/imageprocess/YiOpenCV.hpp; sourceTree = "<group>"; };
+		2DED68191E86401C001117DD /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "UIImage+OpenCV.mm"; path = "VideoH264/imageprocess/UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		2DED681A1E86401C001117DD /* UIImage+OpenCV.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = "UIImage+OpenCV.hpp"; path = "VideoH264/imageprocess/UIImage+OpenCV.hpp"; sourceTree = "<group>"; };
+		2DED681B1E86401C001117DD /* ImageProcess.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ImageProcess.mm; path = VideoH264/imageprocess/ImageProcess.mm; sourceTree = "<group>"; };
+		2DED681C1E86401C001117DD /* ImageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageProcess.h; path = VideoH264/imageprocess/ImageProcess.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4CBBBB1E31C10C002F0651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8802B81EBB057F0029523D /* opencv2.framework in Frameworks */,
+				2D4CBC1D1E322E5B002F0651 /* GLKit.framework in Frameworks */,
+				2D4CBC1B1E322E4C002F0651 /* AVFoundation.framework in Frameworks */,
+				2D4CBC191E322E44002F0651 /* QuartzCore.framework in Frameworks */,
+				2D4CBC171E322E32002F0651 /* VideoToolbox.framework in Frameworks */,
+				2D4CBC151E322E05002F0651 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4CBBD71E31C10D002F0651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4CBBE21E31C10D002F0651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4CBBB51E31C10C002F0651 = {
+			isa = PBXGroup;
+			children = (
+				2D5E2DA91E6FBACD0053F1A6 /* Framework */,
+				2D4CBBC01E31C10D002F0651 /* VideoH264 */,
+				2D4CBBDD1E31C10D002F0651 /* VideoH264Tests */,
+				2D4CBBE81E31C10D002F0651 /* VideoH264UITests */,
+				2D4CBBBF1E31C10C002F0651 /* Products */,
+				2D8802B21EBB02120029523D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4CBBBF1E31C10C002F0651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4CBBBE1E31C10C002F0651 /* VideoH264.app */,
+				2D4CBBDA1E31C10D002F0651 /* VideoH264Tests.xctest */,
+				2D4CBBE51E31C10D002F0651 /* VideoH264UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4CBBC01E31C10D002F0651 /* VideoH264 */ = {
+			isa = PBXGroup;
+			children = (
+				2D4CBBFA1E31C446002F0651 /* Image */,
+				2D5E2D931E6FB9FC0053F1A6 /* JoyStick */,
+				2DED68161E864007001117DD /* ImageProcess */,
+				2DE2CE601E9274310031C17E /* GCDAsyncSocket.m */,
+				2DE2CE611E9274310031C17E /* GCDAsyncSocket.h */,
+				2D7F5B941E90F81C007D386A /* YiAnimation.h */,
+				2D7F5B951E90F81C007D386A /* YiAnimation.m */,
+				2D4CBC1E1E3231EA002F0651 /* Shader.vsh */,
+				2D4CBC1F1E3231EA002F0651 /* Shader.fsh */,
+				2D4CBC0B1E322804002F0651 /* YiOpenGLView.h */,
+				2D4CBC0C1E322804002F0651 /* YiOpenGLView.m */,
+				2D4CBBC41E31C10D002F0651 /* AppDelegate.h */,
+				2D4CBBC51E31C10D002F0651 /* AppDelegate.m */,
+				2D6F5F411E78E085006831FD /* InitViewController.h */,
+				2D6F5F421E78E085006831FD /* InitViewController.m */,
+				2D4CBBC71E31C10D002F0651 /* ViewController.h */,
+				2D4CBBC81E31C10D002F0651 /* ViewController.m */,
+				2D4CBBCA1E31C10D002F0651 /* Main.storyboard */,
+				2D4CBBD01E31C10D002F0651 /* Assets.xcassets */,
+				2D4CBBD21E31C10D002F0651 /* LaunchScreen.storyboard */,
+				2D4CBBD51E31C10D002F0651 /* Info.plist */,
+				2D4CBBCD1E31C10D002F0651 /* VideoH264.xcdatamodeld */,
+				2D4CBBC11E31C10D002F0651 /* Supporting Files */,
+			);
+			path = VideoH264;
+			sourceTree = "<group>";
+		};
+		2D4CBBC11E31C10D002F0651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4CBBC21E31C10D002F0651 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D4CBBDD1E31C10D002F0651 /* VideoH264Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4CBBDE1E31C10D002F0651 /* VideoH264Tests.m */,
+				2D4CBBE01E31C10D002F0651 /* Info.plist */,
+			);
+			path = VideoH264Tests;
+			sourceTree = "<group>";
+		};
+		2D4CBBE81E31C10D002F0651 /* VideoH264UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4CBBE91E31C10D002F0651 /* VideoH264UITests.m */,
+				2D4CBBEB1E31C10D002F0651 /* Info.plist */,
+			);
+			path = VideoH264UITests;
+			sourceTree = "<group>";
+		};
+		2D4CBBFA1E31C446002F0651 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2D9576181EC6137B00DB493C /* lose.png */,
+				2D9576191EC6137B00DB493C /* win.png */,
+				2DB902591E9A7B7300CBBAE0 /* air_combat.png */,
+				2DE2CE691E961DFF0031C17E /* missileBtn.png */,
+				2DE2CE651E9613B40031C17E /* background1.png */,
+				2DE2CE631E960F6C0031C17E /* background1.jpg */,
+				2D7F5B971E90FA16007D386A /* animation */,
+				2D7F5B921E90F490007D386A /* SquareTarget.png */,
+				2D7F5B901E90F3A7007D386A /* misslebtn.png */,
+				2D7F5B8E1E90F1DE007D386A /* landing.png */,
+				2D4CBBFB1E31C455002F0651 /* tab_homepage_press@2x.png */,
+				2D4CBBFC1E31C455002F0651 /* tab_homepage_nor@2x.png */,
+				2D4CBBFD1E31C455002F0651 /* tab_find_press@2x.png */,
+				2D4CBBFE1E31C455002F0651 /* tab_find_nor@2x.png */,
+				2D4CBBFF1E31C455002F0651 /* logo_3745aaf.png */,
+				2D4CBC001E31C455002F0651 /* close@3x.png */,
+				2D4CBC011E31C455002F0651 /* close_preview@3x.png */,
+				2D4CBC021E31C455002F0651 /* close_preview@2x.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		2D5E2D931E6FB9FC0053F1A6 /* JoyStick */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2CE6D1E963ADF0031C17E /* joystick3.png */,
+				2DE2CE6B1E9638410031C17E /* joystickBgnew.png */,
+				2DE2CE671E961BAA0031C17E /* joystickBg.png */,
+				2DE2CE511E92397E0031C17E /* background.png */,
+				2D5E2D941E6FBA390053F1A6 /* square.png */,
+				2D5E2D951E6FBA390053F1A6 /* rockerTranslucentBg@2x.png */,
+				2D5E2D961E6FBA390053F1A6 /* rockerTranslucentBg.png */,
+				2D5E2D971E6FBA390053F1A6 /* rockerOpaqueBg@2x.png */,
+				2D5E2D981E6FBA390053F1A6 /* rockerOpaqueBg.png */,
+				2D5E2D991E6FBA390053F1A6 /* JoyStick.m */,
+				2D5E2D9A1E6FBA390053F1A6 /* JoyStick.h */,
+				2D5E2D9B1E6FBA390053F1A6 /* handlePressed@2x.png */,
+				2D5E2D9C1E6FBA390053F1A6 /* handlePressed.png */,
+				2D5E2D9D1E6FBA390053F1A6 /* handleNormal@2x.png */,
+				2D5E2D9E1E6FBA390053F1A6 /* handleNormal.png */,
+			);
+			name = JoyStick;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2D5E2DA91E6FBACD0053F1A6 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2D8802B71EBB057F0029523D /* opencv2.framework */,
+				2D4CBC1C1E322E5B002F0651 /* GLKit.framework */,
+				2D4CBC1A1E322E4C002F0651 /* AVFoundation.framework */,
+				2D4CBC181E322E44002F0651 /* QuartzCore.framework */,
+				2D4CBC161E322E32002F0651 /* VideoToolbox.framework */,
+				2D4CBC141E322E05002F0651 /* OpenGLES.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		2D7F5B971E90FA16007D386A /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				2D7F5B981E90FA8F007D386A /* missle15.png */,
+				2D7F5B991E90FA8F007D386A /* missle14.png */,
+				2D7F5B9A1E90FA8F007D386A /* missle13.png */,
+				2D7F5B9B1E90FA8F007D386A /* missle12.png */,
+				2D7F5B9C1E90FA8F007D386A /* missle11.png */,
+				2D7F5B9D1E90FA8F007D386A /* missle10.png */,
+				2D7F5B9E1E90FA8F007D386A /* missle9.png */,
+				2D7F5B9F1E90FA8F007D386A /* missle8.png */,
+				2D7F5BA01E90FA8F007D386A /* missle7.png */,
+				2D7F5BA11E90FA8F007D386A /* missle6.png */,
+				2D7F5BA21E90FA8F007D386A /* missle5.png */,
+				2D7F5BA31E90FA8F007D386A /* missle4.png */,
+				2D7F5BA41E90FA8F007D386A /* missle3.png */,
+				2D7F5BA51E90FA8F007D386A /* missle2.png */,
+				2D7F5BA61E90FA8F007D386A /* missle1.png */,
+				2D7F5BA71E90FA8F007D386A /* missle0.png */,
+				2D7F5BA81E90FA8F007D386A /* explode12.png */,
+				2D7F5BA91E90FA8F007D386A /* explode11.png */,
+				2D7F5BAA1E90FA8F007D386A /* explode10.png */,
+				2D7F5BAB1E90FA8F007D386A /* explode9.png */,
+				2D7F5BAC1E90FA8F007D386A /* explode8.png */,
+				2D7F5BAD1E90FA8F007D386A /* explode7.png */,
+				2D7F5BAE1E90FA8F007D386A /* explode6.png */,
+				2D7F5BAF1E90FA8F007D386A /* explode5.png */,
+				2D7F5BB01E90FA8F007D386A /* explode4.png */,
+				2D7F5BB11E90FA8F007D386A /* explode3.png */,
+				2D7F5BB21E90FA8F007D386A /* explode2.png */,
+				2D7F5BB31E90FA8F007D386A /* explode1.png */,
+				2D7F5BB41E90FA8F007D386A /* explode0.png */,
+			);
+			name = animation;
+			sourceTree = "<group>";
+		};
+		2D8802B21EBB02120029523D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8802B31EBB02130029523D /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DED68161E864007001117DD /* ImageProcess */ = {
+			isa = PBXGroup;
+			children = (
+				2DED68171E86401C001117DD /* YiOpenCV.mm */,
+				2DED68181E86401C001117DD /* YiOpenCV.hpp */,
+				2DED68191E86401C001117DD /* UIImage+OpenCV.mm */,
+				2DED681A1E86401C001117DD /* UIImage+OpenCV.hpp */,
+				2DED681B1E86401C001117DD /* ImageProcess.mm */,
+				2DED681C1E86401C001117DD /* ImageProcess.h */,
+			);
+			name = ImageProcess;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4CBBBD1E31C10C002F0651 /* VideoH264 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4CBBEE1E31C10D002F0651 /* Build configuration list for PBXNativeTarget "VideoH264" */;
+			buildPhases = (
+				2D4CBBBA1E31C10C002F0651 /* Sources */,
+				2D4CBBBB1E31C10C002F0651 /* Frameworks */,
+				2D4CBBBC1E31C10C002F0651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoH264;
+			productName = VideoH264;
+			productReference = 2D4CBBBE1E31C10C002F0651 /* VideoH264.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4CBBD91E31C10D002F0651 /* VideoH264Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4CBBF11E31C10D002F0651 /* Build configuration list for PBXNativeTarget "VideoH264Tests" */;
+			buildPhases = (
+				2D4CBBD61E31C10D002F0651 /* Sources */,
+				2D4CBBD71E31C10D002F0651 /* Frameworks */,
+				2D4CBBD81E31C10D002F0651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4CBBDC1E31C10D002F0651 /* PBXTargetDependency */,
+			);
+			name = VideoH264Tests;
+			productName = VideoH264Tests;
+			productReference = 2D4CBBDA1E31C10D002F0651 /* VideoH264Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D4CBBE41E31C10D002F0651 /* VideoH264UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4CBBF41E31C10D002F0651 /* Build configuration list for PBXNativeTarget "VideoH264UITests" */;
+			buildPhases = (
+				2D4CBBE11E31C10D002F0651 /* Sources */,
+				2D4CBBE21E31C10D002F0651 /* Frameworks */,
+				2D4CBBE31E31C10D002F0651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4CBBE71E31C10D002F0651 /* PBXTargetDependency */,
+			);
+			name = VideoH264UITests;
+			productName = VideoH264UITests;
+			productReference = 2D4CBBE51E31C10D002F0651 /* VideoH264UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4CBBB61E31C10C002F0651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yizhang;
+				TargetAttributes = {
+					2D4CBBBD1E31C10C002F0651 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78XV7J2FSE;
+					};
+					2D4CBBD91E31C10D002F0651 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78XV7J2FSE;
+						TestTargetID = 2D4CBBBD1E31C10C002F0651;
+					};
+					2D4CBBE41E31C10D002F0651 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78XV7J2FSE;
+						TestTargetID = 2D4CBBBD1E31C10C002F0651;
+					};
+				};
+			};
+			buildConfigurationList = 2D4CBBB91E31C10C002F0651 /* Build configuration list for PBXProject "VideoH264" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4CBBB51E31C10C002F0651;
+			productRefGroup = 2D4CBBBF1E31C10C002F0651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4CBBBD1E31C10C002F0651 /* VideoH264 */,
+				2D4CBBD91E31C10D002F0651 /* VideoH264Tests */,
+				2D4CBBE41E31C10D002F0651 /* VideoH264UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4CBBBC1E31C10C002F0651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7F5BC21E90FA8F007D386A /* missle2.png in Resources */,
+				2DE2CE661E9613B40031C17E /* background1.png in Resources */,
+				2D7F5BBF1E90FA8F007D386A /* missle5.png in Resources */,
+				2D7F5BBE1E90FA8F007D386A /* missle6.png in Resources */,
+				2D4CBC081E31C455002F0651 /* close@3x.png in Resources */,
+				2D5E2DA71E6FBA390053F1A6 /* handleNormal@2x.png in Resources */,
+				2D7F5BC61E90FA8F007D386A /* explode11.png in Resources */,
+				2D4CBC091E31C455002F0651 /* close_preview@3x.png in Resources */,
+				2D95761B1EC6137B00DB493C /* win.png in Resources */,
+				2D7F5B8F1E90F1DE007D386A /* landing.png in Resources */,
+				2D7F5BBB1E90FA8F007D386A /* missle9.png in Resources */,
+				2D7F5BC51E90FA8F007D386A /* explode12.png in Resources */,
+				2D7F5BCF1E90FA8F007D386A /* explode2.png in Resources */,
+				2D7F5BCE1E90FA8F007D386A /* explode3.png in Resources */,
+				2D5E2DA61E6FBA390053F1A6 /* handlePressed.png in Resources */,
+				2D7F5BBD1E90FA8F007D386A /* missle7.png in Resources */,
+				2D4CBC041E31C455002F0651 /* tab_homepage_nor@2x.png in Resources */,
+				2DB9025A1E9A7B7300CBBAE0 /* air_combat.png in Resources */,
+				2D7F5BB51E90FA8F007D386A /* missle15.png in Resources */,
+				2D7F5BD11E90FA8F007D386A /* explode0.png in Resources */,
+				2D7F5BC41E90FA8F007D386A /* missle0.png in Resources */,
+				2D4CBC0A1E31C455002F0651 /* close_preview@2x.png in Resources */,
+				2D7F5BB71E90FA8F007D386A /* missle13.png in Resources */,
+				2D4CBC061E31C455002F0651 /* tab_find_nor@2x.png in Resources */,
+				2D7F5B911E90F3A7007D386A /* misslebtn.png in Resources */,
+				2D4CBBD41E31C10D002F0651 /* LaunchScreen.storyboard in Resources */,
+				2D7F5BC11E90FA8F007D386A /* missle3.png in Resources */,
+				2D7F5BCA1E90FA8F007D386A /* explode7.png in Resources */,
+				2D7F5BCB1E90FA8F007D386A /* explode6.png in Resources */,
+				2D4CBC211E3231EA002F0651 /* Shader.fsh in Resources */,
+				2D95761A1EC6137B00DB493C /* lose.png in Resources */,
+				2D5E2DA21E6FBA390053F1A6 /* rockerOpaqueBg@2x.png in Resources */,
+				2D7F5BC31E90FA8F007D386A /* missle1.png in Resources */,
+				2D4CBBD11E31C10D002F0651 /* Assets.xcassets in Resources */,
+				2DE2CE6C1E9638410031C17E /* joystickBgnew.png in Resources */,
+				2D7F5BB61E90FA8F007D386A /* missle14.png in Resources */,
+				2DE2CE521E92397E0031C17E /* background.png in Resources */,
+				2D7F5B931E90F490007D386A /* SquareTarget.png in Resources */,
+				2D4CBC051E31C455002F0651 /* tab_find_press@2x.png in Resources */,
+				2D7F5BB81E90FA8F007D386A /* missle12.png in Resources */,
+				2D4CBC201E3231EA002F0651 /* Shader.vsh in Resources */,
+				2D7F5BC91E90FA8F007D386A /* explode8.png in Resources */,
+				2D7F5BB91E90FA8F007D386A /* missle11.png in Resources */,
+				2D5E2DA31E6FBA390053F1A6 /* rockerOpaqueBg.png in Resources */,
+				2DE2CE681E961BAA0031C17E /* joystickBg.png in Resources */,
+				2D5E2D9F1E6FBA390053F1A6 /* square.png in Resources */,
+				2D7F5BC01E90FA8F007D386A /* missle4.png in Resources */,
+				2D7F5BC71E90FA8F007D386A /* explode10.png in Resources */,
+				2DE2CE6A1E961DFF0031C17E /* missileBtn.png in Resources */,
+				2D7F5BBC1E90FA8F007D386A /* missle8.png in Resources */,
+				2D4CBC031E31C455002F0651 /* tab_homepage_press@2x.png in Resources */,
+				2D7F5BBA1E90FA8F007D386A /* missle10.png in Resources */,
+				2D5E2DA11E6FBA390053F1A6 /* rockerTranslucentBg.png in Resources */,
+				2D4CBC071E31C455002F0651 /* logo_3745aaf.png in Resources */,
+				2DE2CE641E960F6C0031C17E /* background1.jpg in Resources */,
+				2DE2CE6E1E963ADF0031C17E /* joystick3.png in Resources */,
+				2D5E2DA51E6FBA390053F1A6 /* handlePressed@2x.png in Resources */,
+				2D5E2DA01E6FBA390053F1A6 /* rockerTranslucentBg@2x.png in Resources */,
+				2D5E2DA81E6FBA390053F1A6 /* handleNormal.png in Resources */,
+				2D7F5BD01E90FA8F007D386A /* explode1.png in Resources */,
+				2D7F5BCC1E90FA8F007D386A /* explode5.png in Resources */,
+				2D7F5BC81E90FA8F007D386A /* explode9.png in Resources */,
+				2D7F5BCD1E90FA8F007D386A /* explode4.png in Resources */,
+				2D4CBBCC1E31C10D002F0651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4CBBD81E31C10D002F0651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4CBBE31E31C10D002F0651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4CBBBA1E31C10C002F0651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DED681F1E86401C001117DD /* ImageProcess.mm in Sources */,
+				2DE2CE621E9274310031C17E /* GCDAsyncSocket.m in Sources */,
+				2D4CBBC91E31C10D002F0651 /* ViewController.m in Sources */,
+				2D7F5B961E90F81C007D386A /* YiAnimation.m in Sources */,
+				2D4CBBCF1E31C10D002F0651 /* VideoH264.xcdatamodeld in Sources */,
+				2D6F5F431E78E085006831FD /* InitViewController.m in Sources */,
+				2DED681E1E86401C001117DD /* UIImage+OpenCV.mm in Sources */,
+				2D4CBBC61E31C10D002F0651 /* AppDelegate.m in Sources */,
+				2D4CBC0D1E322804002F0651 /* YiOpenGLView.m in Sources */,
+				2D5E2DA41E6FBA390053F1A6 /* JoyStick.m in Sources */,
+				2DED681D1E86401C001117DD /* YiOpenCV.mm in Sources */,
+				2D4CBBC31E31C10D002F0651 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4CBBD61E31C10D002F0651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4CBBDF1E31C10D002F0651 /* VideoH264Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4CBBE11E31C10D002F0651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4CBBEA1E31C10D002F0651 /* VideoH264UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4CBBDC1E31C10D002F0651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4CBBBD1E31C10C002F0651 /* VideoH264 */;
+			targetProxy = 2D4CBBDB1E31C10D002F0651 /* PBXContainerItemProxy */;
+		};
+		2D4CBBE71E31C10D002F0651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4CBBBD1E31C10C002F0651 /* VideoH264 */;
+			targetProxy = 2D4CBBE61E31C10D002F0651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D4CBBCA1E31C10D002F0651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4CBBCB1E31C10D002F0651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4CBBD21E31C10D002F0651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4CBBD31E31C10D002F0651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D4CBBEC1E31C10D002F0651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D4CBBED1E31C10D002F0651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4CBBEF1E31C10D002F0651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoH264",
+				);
+				INFOPLIST_FILE = VideoH264/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yi.VideoH264;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2D4CBBF01E31C10D002F0651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoH264",
+				);
+				INFOPLIST_FILE = VideoH264/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yi.VideoH264;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2D4CBBF21E31C10D002F0651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoH264Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yi.VideoH264Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoH264.app/VideoH264";
+			};
+			name = Debug;
+		};
+		2D4CBBF31E31C10D002F0651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoH264Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yi.VideoH264Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoH264.app/VideoH264";
+			};
+			name = Release;
+		};
+		2D4CBBF51E31C10D002F0651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoH264UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yi.VideoH264UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoH264;
+			};
+			name = Debug;
+		};
+		2D4CBBF61E31C10D002F0651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoH264UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yi.VideoH264UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoH264;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4CBBB91E31C10C002F0651 /* Build configuration list for PBXProject "VideoH264" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4CBBEC1E31C10D002F0651 /* Debug */,
+				2D4CBBED1E31C10D002F0651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4CBBEE1E31C10D002F0651 /* Build configuration list for PBXNativeTarget "VideoH264" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4CBBEF1E31C10D002F0651 /* Debug */,
+				2D4CBBF01E31C10D002F0651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4CBBF11E31C10D002F0651 /* Build configuration list for PBXNativeTarget "VideoH264Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4CBBF21E31C10D002F0651 /* Debug */,
+				2D4CBBF31E31C10D002F0651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4CBBF41E31C10D002F0651 /* Build configuration list for PBXNativeTarget "VideoH264UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4CBBF51E31C10D002F0651 /* Debug */,
+				2D4CBBF61E31C10D002F0651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D4CBBCD1E31C10D002F0651 /* VideoH264.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D4CBBCE1E31C10D002F0651 /* VideoH264.xcdatamodel */,
+			);
+			currentVersion = 2D4CBBCE1E31C10D002F0651 /* VideoH264.xcdatamodel */;
+			path = VideoH264.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D4CBBB61E31C10C002F0651 /* Project object */;
+}
